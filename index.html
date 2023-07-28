@@ -14,18 +14,22 @@
         <header class=".text-bg-primary">
             <h1>Hoja de Vida</h1>
         </header>
-    
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="image-container">
                     <img src="images/mia.jpg" alt="Foto de perfil">
                   </div>
+                  <br>
                 <p><strong>Nombre:</strong>Jenny Paola Velasco Manrique</p>
                 <p><strong>Direccion:</strong>Cll60D#16F 23 Barrio ciudadela comfenalco giron</p>
                 <p><strong>Email:</strong>velascopaola2005@gmail.com</p>
                 <p><strong>Teléfono:</strong>3045866569</p>
+
+                <p align="left"> <a href="https://github.com/Paola2005" target="_blank" rel="noreferrer"> <img src="images/GitHub-Logo.png" alt="github" width="100" height="90"/> </a> <a href="https://www.linkedin.com/in/jenny-paola-velasco-manrique-978836241/" target="_blank" rel="noreferrer"> <img src="images/linkedIn_PNG10.png" alt="linkedin" width="100" height="40"/> </a> </p>
+
                 <br>
+                <div class="col-md-1"></div>
                 <h2>Perfil Profesional</h2>
                 <p>Programadora de sofware de nivel básico interesada por aprender las bases 
                   del código, escribir y desarrollar código básico y corregir posibles 
@@ -46,103 +50,142 @@
                     <li><p><strong>Exp.Meses:</strong>2</p></li>
                     </ul>
                     <br>
+
                     <div>
                         <h2>Proyectos Personales</h2>
-                    <ol>
-                        <li><p><strong>Proyecto:</strong>Inventario de compras</p></li>
-                    
-                    <ul>
-                        <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a></p></li>
-                        <li><p><strong>Resultados:</strong>Terminado</p></li>
-                        <li><p><strong>Año:</strong>2023</p></li>
-                    </ul>
-                        <br>
-                    
-                        <li><p><strong>Proyecto:</strong>Registro de estudiantes para CampusLands</p></li>
-                    
-                    <ul>
-                        <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
-                        <li><p><strong>Resultados:</strong>Terminado</p></li>
-                        <li><p><strong>Año:</strong>2023</p></li>
-                    </ul>
-                        <br>
+                        <ol>
+                            <li>
+                              <button class="mostrarOpcionesBtn" data-opcion="opcion1" onclick="activarOpcion(this)">Inventario de compras</button>
+                              <div id="opcion1" class="opcion">
+                                <ul>
+                                    <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a></p></li>
+                                    <li><p><strong>Resultados:</strong>Terminado</p></li>
+                                    <li><p><strong>Año:</strong>2023</p></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <br>
 
-                        <li><p><strong>Proyecto:</strong>Administracion para una veterinaria</p></li>
+                            <li>
+                              <button class="mostrarOpcionesBtn" data-opcion="opcion2">Registro de estudiantes para CampusLands</button>
+                              <div id="opcion2" class="opcion">
+                                <ul>
+                                    <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
+                                    <li><p><strong>Resultados:</strong>Terminado</p></li>
+                                    <li><p><strong>Año:</strong>2023</p></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <br>
+                        
+                            <li>
+                              <button class="mostrarOpcionesBtn" data-opcion="opcion3">Administracion para una veterinaria</button>
+                              <div id="opcion3" class="opcion">
+                                <ul>
+                                    <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
+                                    <li><p><strong>Resultados:</strong>Terminado</p></li>
+                                    <li><p><strong>Año:</strong>2023</p></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <br>
 
-                    <ul>
-                        <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
-                        <li><p><strong>Resultados:</strong>Terminado</p></li>
-                        <li><p><strong>Año:</strong>2023</p></li>
-                    </ul>
-                        <br>
-                        <li><p><strong>Proyecto:</strong>Registro de insidencias para CampusLands</p></li>
-                    <ul>
-                        <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
-                        <li><p><strong>Resultados:</strong>Terminado</p></li>
-                        <li><p><strong>Año:</strong>2023</p></li>
-                    </ul>
-                        <br>
-                        <li><p><strong>Proyecto:</strong>gestion de citas médicas para un consultorio</p></li>
-                    <ul>
-                        <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
-                        <li><p><strong>Resultados:</strong>Terminado</p></li>
-                        <li><p><strong>Año:</strong>2023</p></li>
-                    </ul>
-                    </ol>
+                            <li>
+                                <button class="mostrarOpcionesBtn" data-opcion="opcion4">Registro de insidencias para CampusLands</button>
+                                <div id="opcion4" class="opcion">
+                                  <ul>
+                                      <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
+                                      <li><p><strong>Resultados:</strong>Terminado</p></li>
+                                      <li><p><strong>Año:</strong>2023</p></li>
+                                  </ul>
+                                </div>
+                            </li>
+                            <br>
+                            
+                            <li>
+                                <button class="mostrarOpcionesBtn" data-opcion="opcion5">Administracion para una veterinaria</button>
+                                <div id="opcion5" class="opcion">
+                                  <ul>
+                                      <li><p><strong>Stock:</strong><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p></li>
+                                      <li><p><strong>Resultados:</strong>Terminado</p></li>
+                                      <li><p><strong>Año:</strong>2023</p></li>
+                                  </ul>
+                                </div>
+                            </li>
+
+                        </ol>
+                        
+                        <script>
+                            const botones = document.querySelectorAll('.mostrarOpcionesBtn');
+                            botones.forEach(boton => {
+                              boton.addEventListener('click', () => {
+                                const opcionId = boton.dataset.opcion;
+                                const opcion = document.getElementById(opcionId);
+                                if (opcion.classList.contains('visible')) {
+                                  opcion.classList.remove('visible');
+                                } else {
+                                  const opcionesVisibles = document.querySelectorAll('.opcion.visible');
+                                  opcionesVisibles.forEach(opcionVisible => {
+                                    opcionVisible.classList.remove('visible');
+                                  });
+                                  opcion.classList.add('visible');
+                                }
+                              });
+                            });
+                          </script>
                     </div>
-                    <br>
+
                     <div>
                         <h2>Logros</h2>
                         <p><strong>Logro:</strong>Pasar el filtro de Jholver</p>
                         <p><strong>Año:</strong>2023</p>
                     </div>  
                 </div>
-
+                <br>
             <div class="col-md-4">
-                <h2>Idiomas</h2>
-                    <ol>
-                        <li><p><strong>Idioma:</strong>Español</p></li>
-                        <ul>
-                        <li><p><strong>Nivel:</strong>Nativo</p></li>
-                        <li><p><strong>Habla:</strong>Bueno</p></li>
-                        <li><p><strong>Escribir:</strong>Bueno</p></li>
-                        <li><p><strong>Escucha:</strong>Bueno</p></li>
-                        </ul>
-                        <br>
-                        <li><p><strong>Idioma:</strong>Ingles</p></li>
-                        <ul>
-                        <li><p><strong>Nivel:</strong>A2</p></li>
-                        <li><p><strong>Habla:</strong>Fluido</p></li>
-                        <li><p><strong>Escribir:</strong>Entendible</p></li>
-                        <li><p><strong>Escucha:</strong>Defectuosa</p></li>
-                        </ul>
-                        <br>
-                    </ol>
-                    <div>
-                        <h2>Estudios</h2>
-                        <ul>
-                        <li><p><strong>Nivel:</strong>Bachillerato</p></li>
-                        <p><strong>Año:</strong>2022</p>
-                        <p><strong>Institucion:</strong>Colegio Niño Jesus De Praga</p>
+                    <h2>Idiomas</h2>
+                        <ol>
+                            <li><p><strong>Idioma:</strong>Español</p></li>
+                            <ul>
+                                <li><p><strong>Nivel:</strong>Nativo</p></li>
+                                <li><p><strong>Habla:</strong>Bueno</p></li>
+                                <li><p><strong>Escribir:</strong>Bueno</p></li>
+                                <li><p><strong>Escucha:</strong>Bueno</p></li>
+                            </ul>
                             <br>
-                        <li><p><strong>Nivel:</strong>Principiante</p></li>
-                        <p><strong>Año:</strong>2023</p>
-                        <p><strong>Institucion:</strong>CampusLands</p>
-                        </ul>
-                        
-                    </div>
-                    <br>
-
-                    <div>
-                        <h2>Experiencia</h2>
-                        <p><strong>Proyecto:</strong>Hoja de vida en Html con css y se espera que en el futuro con bootstrap</p>
-                        <p><strong>Empresa:</strong>CampusLands</p>
-                        <p><strong>Stock:</strong><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> </p>
-                        <p><strong>Logros:</strong>Terminado con Css</p>
-                        <p><strong>Año:</strong>2023</p>
-        
-                    </div>
+                            <li><p><strong>Idioma:</strong>Ingles</p></li>
+                            <ul>
+                                <li><p><strong>Nivel:</strong>A2</p></li>
+                                <li><p><strong>Habla:</strong>Fluido</p></li>
+                                <li><p><strong>Escribir:</strong>Entendible</p></li>
+                                <li><p><strong>Escucha:</strong>Defectuosa</p></li>
+                            </ul>
+                            <br>
+                        </ol>
+                        <div>
+                            <h2>Estudios</h2>
+                            <ul>
+                            <li><p><strong>Nivel:</strong>Bachillerato</p></li>
+                            <p><strong>Año:</strong>2022</p>
+                            <p><strong>Institucion:</strong>Colegio Niño Jesus De Praga</p>
+                                <br>
+                            <li><p><strong>Nivel:</strong>Principiante</p></li>
+                            <p><strong>Año:</strong>2023</p>
+                            <p><strong>Institucion:</strong>CampusLands</p>
+                            </ul>
+                            
+                        </div>
+                        <br>
+    
+                        <div>
+                            <h2>Experiencia</h2>
+                            <p><strong>Proyecto:</strong>Hoja de vida en Html con css y bootstrap</p>
+                            <p><strong>Empresa:</strong>CampusLands</p>
+                            <p><strong>Stock:</strong><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> </p>
+                            <p><strong>Logros:</strong>Terminado</p>
+                            <p><strong>Año:</strong>2023</p>
+            
+                        </div>
                 </div>
-            </div>
-</body>
-</html>
+    </body>
+    </html>
