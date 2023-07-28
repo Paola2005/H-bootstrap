@@ -26,9 +26,8 @@ body,.ima {
   margin-top: 5%;
 }
 
-.col-md-4 {
-  flex: auto;
-  width:33.33%;
+.col-4 {
+  width:33%;
   border: 3px solid #000000;
   background-color: beige;
 }
